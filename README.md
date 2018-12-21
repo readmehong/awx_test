@@ -2,4 +2,4 @@
 
 
 * ansible hosts 관리  
- * /etc/ansible/hosts
+  * /etc/ansible/hosts
