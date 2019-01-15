@@ -10,13 +10,29 @@
   * 관련 내용 : https://cigol.tistory.com/1194
   * display 등의 명령어를 사용하기 위해선 접속 후 `_cmdline-mode on` 입력하여 명령어 사용 가능한 상태로 만들어야 함.
    * password를 입력하라 나오는데, CLI type the code 를 입력해야함.
-   * 아래 버전으로는 현 패스워드가 뭔지 모름 
+   * 아래 버전으로는 현 패스워드가 뭔지 모름
+    * 패스워드 : `Jinhua1920unauthorized`
  ``` 
-  ******************************************************************************
-* Copyright (c) 2010-2016 Hewlett Packard Enterprise Development LP          *
-* Without the owner's prior written consent,                                 *
-* no decompiling or reverse-engineering shall be allowed.                    *
-*****************************************************************************
+<HPE>_cmdline-mode on
+All commands can be displayed and executed. Continue? [Y/N]y
+Please input password:**********************
+Warning: Now you enter an all-command mode for developer's testing, some commands may affect operation by wrong use, please carefully use it with our engineer's direction.
+<HPE>display version
+HPE Comware Platform Software
+Comware Software, Version 5.20.99, Release 1112
+Copyright (c) 2010-2016 Hewlett Packard Enterprise Development LP
+HPE 1920-24G Switch uptime is 0 week, 4 days, 0 hour, 26 minutes
+
+HPE 1920-24G Switch
+128M    bytes DRAM
+32M     bytes Flash Memory
+Config Register points to Flash
+
+Hardware Version is REV.A
+Bootrom Version is 117
+[SubSlot 0] 24GE+4SFP Hardware Version is REV.A
+
+<HPE>
 ```
 
 * 아래는 `_cmdline-mode on` 명령어로 awx에서 실행해본 결과. 명령어가 없다고 나옴
