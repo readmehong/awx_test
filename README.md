@@ -21,9 +21,8 @@
 
 * 아래는 `_cmdline-mode on` 명령어로 awx에서 실행해본 결과. 명령어가 없다고 나옴
   
-  - 테스트 yml
 
-```   
+```  - 테스트 yml  
    1 ---
   2 - name: Hello World Sample
   3   hosts: all
@@ -40,8 +39,9 @@
  14           'All commands can be displayed and executed. Continue? [Y/N]': "y\n"
  15           'Enter current password for root (enter for none):': "\n
 ```
-  - 실행 결과 log
-```   
+ 
+
+```  - 실행 결과 log   
 The full traceback is:
 41
 Traceback (most recent call last):
