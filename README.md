@@ -38,7 +38,7 @@
  13         responses:
  14           'All commands can be displayed and executed. Continue? [Y/N]': "y\n"
  15           'Enter current password for root (enter for none):': "\n"
- ``` 
+  ``` 
  * 실행 결과 log
    ``` 
 The full traceback is:
@@ -82,5 +82,5 @@ PLAY RECAP *********************************************************************
 13:45:34
 72
 192.168.101.60             : ok=1    changed=0    unreachable=0    failed=1   
-
- ``` 
+ 
+  ``` 
