@@ -22,7 +22,6 @@
 * 아래는 `_cmdline-mode on` 명령어로 awx에서 실행해본 결과. 명령어가 없다고 나옴
 
 ###### 테스트 yml  
-------
 ```  
    1 ---
   2 - name: Hello World Sample
@@ -42,7 +41,6 @@
 ```
 
 ###### 실행결과 log
----
 ```   
 The full traceback is:
 41
