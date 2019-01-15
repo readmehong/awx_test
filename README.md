@@ -40,7 +40,8 @@
  14           'All commands can be displayed and executed. Continue? [Y/N]': "y\n"
  15           'Enter current password for root (enter for none):': "\n
 ```
-####### 실행 결과 log  
+
+###### 실행결과 log
 ---
 ```   
 The full traceback is:
