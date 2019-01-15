@@ -8,10 +8,9 @@
 
 * HP 장비느 보안상의 이유로 다이렉트로 접속으 하여도 모든 기능으 사용할 수 없다고 함.
   * 관련 내용 : https://cigol.tistory.com/1194
-  * display 등의 명령어를 사용하기 위해선 접속 후 
-   * `_cmdline-mode on` 입력하여 명령어 사용 가능한 상태로 만들어야 함.
-    * password를 입력하라 나오는데, CLI type the code 를 입력해야함.
-    * 아래 버전으로는 현 패스워드가 뭔지 모름 
+  * display 등의 명령어를 사용하기 위해선 접속 후 `_cmdline-mode on` 입력하여 명령어 사용 가능한 상태로 만들어야 함.
+   * password를 입력하라 나오는데, CLI type the code 를 입력해야함.
+   * 아래 버전으로는 현 패스워드가 뭔지 모름 
  ``` 
   ******************************************************************************
 * Copyright (c) 2010-2016 Hewlett Packard Enterprise Development LP          *
